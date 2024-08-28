@@ -1,0 +1,51 @@
+.kids-card {
+  display: flex;
+  flex-direction: column;
+  grid-template-rows: auto 1fr;
+  margin: 10px;
+  width: 100%;
+  min-width: 400px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.kids-card img {
+  width: 85%;
+}
+
+.inner-card {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+}
+
+.inner-card h3 {
+  margin-left: 10px;
+  margin-top: 15px;
+  font-weight: normal;
+}
+
+.inner-card h4 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.inner-card p {
+  text-align: justify;
+  margin-left: 10px;
+  color: #000;
+  font-size: 12px;
+}
+
+.inner-card button {
+  background-color: #000;
+  color: #fff;
+  width: 20%;
+}
+
+@media (max-width: 760px) {
+  .kids-card {
+    margin-left: 25px;
+    margin-bottom: 100px;
+  }
+}

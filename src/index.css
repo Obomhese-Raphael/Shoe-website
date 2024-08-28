@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  cursor: pointer;
+}
+@media (min-width: 800px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .navbar-left-item {
+    margin-left: -30px;
+  }
+  .navbar-left-item .logo {
+    display: none;
+  }
+  .navbar-center-items ul li {
+    font-size: 15px;
+  }
+  .navbar-right-items input {
+    padding: 10px 10px;
+  }
+}
+
+@media (min-width: 1114px) {
+  .navbar-left-item .logo {
+    display: block;
+  }
+}

@@ -1,0 +1,102 @@
+.explore-container .kids {
+  margin-top: -350px;
+  margin-bottom: -100px;
+  padding: 0px;
+  margin-bottom: 35px;
+}
+
+.explore-container .kids-programs {
+  margin-bottom: 100px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.explore-container .men {
+  margin-top: 100px;
+}
+
+.explore-container .programs.kids-explore {
+  height: 100%;
+  position: relative;
+}
+
+.explore-container .program img {
+  width: 100%;
+  height: 70vh;
+  display: block;
+  border-radius: 0px !important;
+}
+
+.explore-container .programs .program .under_under {
+  margin-bottom: 50px;
+}
+
+.explore-container .program {
+  flex-basis: 33%;
+  margin-right: 20px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.explore-container .caption {
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  cursor: pointer;
+  padding-top: 70%;
+  transition: 0.4s;
+}
+
+.explore-container .explore {
+  margin-left: 70px;
+}
+
+.explore-container .kids-programs {
+  margin: 10px auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.kids-container .explore-container {
+  border: 4px solid red;
+  border: none;
+  margin-top: 350px;
+}
+
+@media (max-width: 600px) {
+  .programs .program {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 500px;
+    padding-bottom: 50px;
+  }
+
+  .programs .program .caption {
+    margin: auto;
+    font-size: 20px;
+  }
+
+  .programs .program .caption .p2 {
+    font-size: 15px;
+  }
+  .explore-container.essential-container .kids.explore {
+    display: flex;
+    margin-left: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 9px;
+  }
+}

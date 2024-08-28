@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&display=swap");
+
+.head-section {
+  text-align: center;
+}
+.head-section h1 {
+  font-size: 80px;
+  font-family: "Anton SC", sans-serif;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.head-section .shop-btn {
+  background: #000;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.bottom-section {
+  margin: 10px auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  transition: 0.4s;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.img-a,
+.img-b,
+.img-c,
+.img-d {
+  flex: 0 0 50%;
+  flex-basis: 50%;
+  position: relative;
+  margin-bottom: -10px;
+}
+
+.program {
+  flex-basis: 50%;
+  position: relative;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4 {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.other-section {
+  text-align: center;
+}
+
+.other-section h2 {
+  font-size: 50px;
+  font-family: "Anton SC", sans-serif;
+  font-weight: 500;
+  margin-top: 50px;
+}
+.other-section button {
+  background: #000;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+.img-roll {
+  max-width: 100%;
+  margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+  .head-section h1 {
+    font: 40px "Helvetica Now Display Medium";
+    margin-top: 20px;
+  }
+  .head-section p {
+    font: 15px "Helvetica Now Display Medium";
+    padding: 10px;
+  }
+  .bottom-section {
+    margin-top: -40px;
+  }
+  .other-section h2 {
+    font: 40px "Helvetica Now Display Medium";
+  }
+  .other-section button {
+    margin-top: 10px;
+  }
+}

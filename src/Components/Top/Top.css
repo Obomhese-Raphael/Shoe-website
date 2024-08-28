@@ -1,0 +1,48 @@
+.top-items {
+  display: flex;
+  align-items: center;
+  background: #f8f8f8;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.top-left-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-left-items .converse-logo {
+  height: 25px;
+  background: inherit;
+  display: flex;
+  margin-left: 30px;
+}
+.top-right-items {
+  display: flex;
+  margin-right: 100px;
+  cursor: pointer;
+}
+.top-right-items ul {
+  display: flex;
+  text-align: center;
+  list-style-type: none;
+  padding-left: 10px;
+  gap: 20px;
+}
+.top-right-items ul li {
+  border-right: 1px solid #000;
+  padding: 2px 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.jordan-logo {
+  height: 30px;
+  margin-left: 50px;
+}
+
+@media (max-width: 600px) {
+  .top {
+    display: none;
+  }
+}

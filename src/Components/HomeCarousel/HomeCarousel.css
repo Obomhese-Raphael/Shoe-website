@@ -1,0 +1,36 @@
+.head-section{
+    text-align: center;
+}
+
+.home-carousel-container h1{
+    font-size: 70px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.home-carousel .shop-btn{
+    margin-bottom: 50px;
+}
+
+.home-carousel .h2{
+    margin-left: 50px;
+    font-size: 50px;
+    height: 100px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.card {
+    max-width: 420px;
+    margin: auto 1rem;
+    text-align: center;
+    height: 20em;
+    width: 20em;
+    object-fit: contain;
+    font-family: arial;
+}
+
+.card img{
+    width: 90%;
+}

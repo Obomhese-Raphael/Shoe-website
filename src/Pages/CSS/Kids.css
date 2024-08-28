@@ -1,0 +1,301 @@
+.kids-container .program img {
+  width: 100%;
+  height: 100vh;
+  display: block;
+}
+
+.essential-container .kids-programs {
+  margin: 10px auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.kids-container .essential-container {
+  border: none;
+  margin-top: 350px;
+}
+
+.kids-container .kids {
+  display: flex;
+  font: 24px "Helvetica Now Display Medium";
+  margin-bottom: 20px;
+  margin-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.essential-container .kids.essential.kids-header {
+  font-size: 25px;
+  padding-top: 70px;
+  margin-bottom: 10px;
+}
+
+.kids-container .program {
+  flex-basis: 50%;
+  position: relative;
+  margin-top: 20px;
+  cursor: pointer;
+  margin: -25px;
+}
+
+.kids-container .caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  cursor: pointer;
+  padding-top: 70%;
+  margin-bottom: 100px;
+  margin-right: 300px;
+  transition: 0.4s;
+  text-align: justify;
+  width: 100%;
+}
+
+.kids-container .caption img {
+  width: 80px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.kids-container .caption .p {
+  font-size: 25px;
+  margin-bottom: -10px;
+}
+
+.kids-container .caption .p2 {
+  font-size: 25px;
+}
+
+.kids-container button {
+  padding: 10px 22px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.carousel {
+  margin-top: 100px;
+}
+
+.carousel_1 {
+  margin-bottom: 100px;
+}
+
+.carousel .kids {
+  margin-bottom: 20px;
+}
+
+.popular-images {
+  width: 100%;
+}
+
+.popular-images div {
+  display: flex;
+  margin-left: 30px;
+  justify-content: space-evenly;
+}
+
+.popular-images div img {
+  width: 100%;
+  margin-top: -50px;
+}
+
+.sizes-images {
+  width: 100%;
+  padding-top: 30px;
+}
+
+.sizes-images div {
+  display: flex;
+  margin-left: 30px;
+  justify-content: space-evenly;
+}
+
+.sizes-images div img {
+  width: 100%;
+  margin-top: -50px;
+}
+
+.essential-container .kids-header {
+  margin-top: 150px;
+  margin-bottom: -10px;
+  /* border: 5px solid red; */
+  padding: 0;
+  padding-bottom: 30px;
+  font-size: 25px;
+}
+
+.essential-container {
+  margin-bottom: 100px;
+}
+
+.essential-container .men {
+  margin-top: 100px;
+}
+
+.essential-container .program img {
+  width: 100%;
+  height: 70vh;
+  display: block;
+  border-radius: 0px !important;
+}
+
+.essential-container .program {
+  flex-basis: 33%;
+  margin-right: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.essential-container .caption {
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  cursor: pointer;
+  padding-top: 70%;
+  transition: 0.4s;
+}
+
+.essential-container .kids{
+    margin-top: -300px;
+}
+
+.essential-container .essential {
+  margin-left: 70px;
+}
+
+.kids-programs .under_name {
+  display: flex;
+  font-weight: 900;
+}
+
+.under_under {
+  display: flex;
+  border-bottom: 2px solid #000;
+  width: 40px;
+}
+
+.kids-classic-images {
+  align-items: center;
+  text-align: center;
+  width: 95%;
+  margin-bottom: 100px;
+  margin-left: 30px;
+}
+
+.kids-classic-images div {
+  display: flex;
+  margin-left: -80px;
+}
+
+.kids-classic-images div img {
+  width: 80%;
+  height: 65vh;
+  margin-top: -50px;
+}
+
+.popular-container {
+  margin-top: -70px;
+}
+
+.popular-container .header-kids {
+  margin-bottom: 5px;
+  padding: 0px;
+  padding-top: 10px;
+}
+
+.essential-container.explore-here {
+  /* border: 5px solid red; */
+  margin-bottom: 150px;
+}
+
+.sizes-container .kids.sizes-header {
+  font-size: 25px;
+  margin-top: 5px;
+  padding: 0px;
+  margin-bottom: -10px;
+}
+
+.classics-container .mini-header {
+  margin-bottom: -10px;
+}
+
+@media (max-width: 600px) {
+  .kids-container .trending-header {
+    font-size: 25px;
+    margin: -10px 5px;
+  }
+
+  .kids-container .programs.kids-explore .program {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -40px;
+  }
+
+  .kids-container .programs.kids-explore .program img {
+    width: 100%;
+    height: 465px;
+  }
+
+  .kids-container .programs.kids-explore .program img {
+    width: 100%;
+    height: 465px;
+  }
+
+  .kids-container .essential-container {
+    margin-top: -100px;
+  }
+
+  .kids-container .essential-container .kids-programs {
+    display: block;
+    align-items: center;
+  }
+
+  .kids-container .essential-container .kids-programs .program {
+    /* border: 5px solid red; */
+    margin-bottom: 50px;
+  }
+
+  .kids-container .program.program_1 {
+    outline: none;
+    border-radius: 10px;
+    padding: none;
+    margin-bottom: 100px;
+  }
+
+  .essential-container .kids-programs .program {
+    width: 90%;
+    margin-left: 15px;
+    /* margin-bottom: 50px; */
+  }
+
+  .sizes-container .sizes-header {
+    font-size: 30px;
+    width: 100%;
+    height: 10vh;
+    padding: 0 10px;
+    margin: -50px 0;
+  }
+}

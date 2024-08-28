@@ -1,0 +1,60 @@
+.kids-card {
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: auto 1fr;
+    margin: 10px;
+    width: 100%;
+    min-width: 400px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.kids-card img{
+    width: 80%;
+    border: 1px solid #ccc;
+}
+
+.inner-card {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-card h3{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+.inner-card h4{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.inner-card p{
+    text-align: justify;
+    margin-left: 10px;
+    color: #6d6d6d;
+}
+
+
+@media (max-width: 600px) {
+    .carousel{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .kids-card{
+        width: 90%;
+        text-align: center;
+    }
+
+    .kids-card img{
+        align-items: center;
+    }
+
+    .kids-card .inner-card{
+        display: flex;
+        align-items: start;
+    }
+}
