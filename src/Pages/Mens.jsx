@@ -25,7 +25,7 @@ const Mens = () => {
         <div className="program">
           <img src={right_image} className="right-img" alt="" />
           <div className="caption">
-            <p className="p">Basketball Latest</p>
+            <p className="p">Basketball Latest</p> 
             <h2>Giannis Freak 6</h2>
             <button>Shop</button>
           </div>

@@ -14,21 +14,19 @@ const Signup = () => {
     return re.test(String(email).toLowerCase());
   };
 
-  const handleReload = () => {
-    window.location.reload();
-  };
-
   const handleSubmit = (event) => {
     event.preventDefault();
     const email = event.target.elements.email.value;
 
     if (validateEmail(email)) {
-      setSuccessMessage("Signup successful. Check your Gmail.");
-
+      setSuccessMessage(
+        "Signup successful. Check your Gmail to confirm your account."
+      );
       setEmails([...emails, email]);
+      console.log("Signup Successful");
     } else {
       setErrorMessage("Invalid Email, Try again");
-      setSuccessMessage("");
+      console.log("Signup not Sucessful");
     }
   };
 
@@ -47,20 +45,21 @@ const Signup = () => {
           Change
         </a>
       </div>
-      <form action="" className="input-group" onSubmit={handleSubmit}>
-        <input 
+      <form action="POST" className="input-group" onSubmit={handleSubmit}>
+        <input
+          name="email"
           placeholder="Email*"
           className="input-box"
           autoComplete="on"
           type="email"
           required
-          list="pastEmails"
         />
-        <p className={errorMessage ? "error-message" : ""}>{errorMessage}</p>
-        <p className={successMessage ? "success-message" : ""}>
-          {successMessage}
-        </p>
-        <button className="continue submit" onClick={handleReload} type="submit">
+        {successMessage ? (
+          <p className="success-message">{successMessage}</p>
+        ) : (
+          <p className="error-message">{errorMessage}</p>
+        )}
+        <button className="continue submit" type="submit">
           Submit
         </button>
       </form>

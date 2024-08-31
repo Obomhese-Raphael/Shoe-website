@@ -138,7 +138,7 @@ let new_collections = [
   {
     id: 8,
     text: "Just In",
-    name: "Nike Elkhateeb (Walking)",
+    name: "Nike Air VaporMax",
     image: p8_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -146,7 +146,7 @@ let new_collections = [
   {
     id: 9,
     text: "Just In",
-    name: "Nike Elkhateeb (Walking)",
+    name: "Nike React Infinity Run",
     image: p9_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -154,7 +154,7 @@ let new_collections = [
   {
     id: 10,
     text: "Just In",
-    name: "Nike Elkhateeb (Walking)",
+    name: "Nike Free Run 5.0",
     image: p10_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -162,7 +162,7 @@ let new_collections = [
   {
     id: 11,
     text: "Just In",
-    name: "Nike Elkhateeb (Walking)",
+    name: "Nike Cortez",
     image: p11_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -170,7 +170,7 @@ let new_collections = [
   {
     id: 12,
     text: "Just In",
-    name: "Nike Elkhateeb (Walking)",
+    name: "Nike Swagger",
     image: p12_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -178,7 +178,7 @@ let new_collections = [
   {
     id: 13,
     text: "Just In",
-    name: "Nike Elkhateeb (Walking)",
+    name: "Nike SB Dunk",
     image: p13_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -186,7 +186,7 @@ let new_collections = [
   {
     id: 14,
     text: "Just In",
-    name: "Nike Elkhateeb (Walking)",
+    name: "Nike Air Presto",
     image: p14_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -194,7 +194,7 @@ let new_collections = [
   {
     id: 15,
     text: "Just In",
-    name: "Nike Elkhateeb (Walking)",
+    name: "Nike Air Zoom Structure",
     image: p15_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -210,7 +210,7 @@ let new_collections = [
   {
     id: 17,
     text: "Just In",
-    name: "Boys Nike Shoe",
+    name: "Nike Joyride Run Flyknit",
     image: p17_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -218,7 +218,7 @@ let new_collections = [
   {
     id: 18,
     text: "Just In",
-    name: "Boys Nike Shoe",
+    name: "Nike Air Monarch IV",
     image: p18_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -226,7 +226,7 @@ let new_collections = [
   {
     id: 19,
     text: "Just In",
-    name: "Boys Nike Shoe",
+    name: "Nike Hyperdunk",
     image: p19_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -234,7 +234,7 @@ let new_collections = [
   {
     id: 20,
     text: "Just In",
-    name: "Boys Nike Shoe",
+    name: "Nike Air Zoom Winflo 7",
     image: p20_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -242,7 +242,7 @@ let new_collections = [
   {
     id: 21,
     text: "Just In",
-    name: "Boys Nike Shoe",
+    name: "Nike Zoom Freak 3",
     image: p21_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -250,7 +250,7 @@ let new_collections = [
   {
     id: 22,
     text: "Just In",
-    name: "Boys Nike Shoe",
+    name: "Nike Air Max Plus (TN)",
     image: p22_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -258,7 +258,7 @@ let new_collections = [
   {
     id: 23,
     text: "Just In",
-    name: "Boys Nike Shoe",
+    name: "Nike Mercurial Superfly",
     image: p23_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -266,7 +266,7 @@ let new_collections = [
   {
     id: 24,
     text: "Just In",
-    name: "Boys Nike Shoe",
+    name: "Nike Mercurial Superfly",
     image: p24_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -274,7 +274,7 @@ let new_collections = [
   {
     id: 25,
     text: "Just In",
-    name: "Boys Nike Shoe",
+    name: "Nike Shox R4",
     image: p54_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -282,7 +282,7 @@ let new_collections = [
   {
     id: 26,
     text: "Just In",
-    name: "Boys Nike Shoe",
+    name: "Nike SB Stefan Janoski",
     image: p14_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -290,7 +290,7 @@ let new_collections = [
   {
     id: 27,
     text: "Just In",
-    name: "Boys Nike Shoe",
+    name: "Nike Air Max 1",
     image: p27_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -298,7 +298,7 @@ let new_collections = [
   {
     id: 28,
     text: "Just In",
-    name: "Boys Nike Shoe",
+    name: "Nike Zoom KD 14",
     image: p44_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -306,7 +306,7 @@ let new_collections = [
   {
     id: 28,
     text: "Just In",
-    name: "Boys Nike Shoe",
+    name: "Nike Air More Uptempo",
     image: p30_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -403,7 +403,7 @@ let new_collections = [
   {
     id: 40,
     text: "Just In",
-    name: "Nike Air Pegasus 2005",
+    name: "Nike React Miler",
     image: p36_img,
     new_price: 150.0,
     old_price: 160.0,
@@ -419,7 +419,7 @@ let new_collections = [
   {
     id: 42,
     text: "Member Product",
-    name: "Nike Zoom Vomero 5",
+    name: "Nike Air Max 720",
     image: p38_img,
     new_price: 160.0,
     old_price: 170.0,
@@ -476,7 +476,7 @@ let new_collections = [
   {
     id: 49,
     text: "Just In",
-    name: "Nike Zoom Pegasus (Running)",
+    name: "Nike Zoom Pegasus (Training)",
     image: p45_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -492,7 +492,7 @@ let new_collections = [
   {
     id: 51,
     text: "Just In",
-    name: "Nike Revolution (Running)",
+    name: "Nike Revolution (Walking)",
     image: p47_img,
     new_price: 60.0,
     old_price: 100.0,
@@ -557,7 +557,7 @@ let new_collections = [
   {
     id: 59,
     text: "Just In",
-    name: "Nike VaporMax (Lifestyle)",
+    name: "Nike VaporMax (Training)",
     image: p55_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -565,7 +565,7 @@ let new_collections = [
   {
     id: 60,
     text: "Just In",
-    name: "Nike Waffle Trainer (Lifestyle)",
+    name: "Nike Waffle Trainer (Training)",
     image: p56_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -605,7 +605,7 @@ let new_collections = [
   {
     id: 65,
     text: "Just In",
-    name: "Nike Prestos (Lifestyle)",
+    name: "Nike Prestos (Walking)",
     image: p61_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -685,7 +685,7 @@ let new_collections = [
   {
     id: 75,
     text: "Just In",
-    name: "Nike Air Jordan 1 (Basketball)",
+    name: "Nike Air Jordan 1 (Walking)",
     image: p71_img,
     new_price: 100.0,
     old_price: 150.0,

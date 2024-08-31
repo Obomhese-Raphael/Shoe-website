@@ -2,7 +2,6 @@
 import "./CSS/ShopCategory.css";
 
 const ShopCategory = (props) => {
-  console.log(props);
   return (
     <div className="shop-category">
       <div className="banner-category">

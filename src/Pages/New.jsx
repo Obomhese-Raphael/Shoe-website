@@ -1,16 +1,23 @@
-// import React from 'react'
 import "./CSS/New.css";
 import new_banner from "../assets/new_banner (2).jpg";
 import Item from "../Components/Items/Items";
 import filter_icon from "../assets/filter_icon.jpg";
 import arrow_down from "../assets/dropdown_icon (2).png";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { ShopContext } from "../Context/ShopContext";
 import new_collections from "../Components/Assets/new_collection";
 
 const New = () => {
   const { searchResults } = useContext(ShopContext);
-  console.log(searchResults)
+  const [visibleItems, setVisibleItems] = useState(15);
+
+  const loadMoreItems = (e) => {
+    e.preventDefault();
+    setVisibleItems((prevVisibleItems) => prevVisibleItems + 15);
+  };
+
+  const itemsToDisplay =
+    searchResults.length > 0 ? searchResults : new_collections;
 
   return (
     <div className="new">
@@ -33,37 +40,25 @@ const New = () => {
           </div>
         </div>
         <div className="collections">
-          {searchResults?.length > 0
-            ? searchResults.map((item, i) => {
-                return (
-                  <Item
-                    key={i}
-                    id={item.id}
-                    text={item.text}
-                    name={item.name}
-                    image={item.image}
-                    new_price={item.new_price}
-                    old_price={item.old_price}
-                  />
-                );
-              })
-            : new_collections.map((item, i) => {
-                return (
-                  <Item
-                    key={i}
-                    id={item.id}
-                    text={item.text}
-                    name={item.name}
-                    image={item.image}
-                    new_price={item.new_price}
-                    old_price={item.old_price}
-                  />
-                );
-              })}
+          {itemsToDisplay.slice(0, visibleItems).map((item, i) => (
+            <Item
+              key={i}
+              id={item.id}
+              text={item.text}
+              name={item.name}
+              image={item.image}
+              new_price={item.new_price}
+              old_price={item.old_price}
+            />
+          ))}
         </div>
-        <div className="explore-more">
-          <button className="exp-btn">Explore More</button>
-        </div>
+        {visibleItems < itemsToDisplay.length && (
+          <div className="explore-more">
+            <button className="exp-btn" onClick={loadMoreItems}>
+              Explore More
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );

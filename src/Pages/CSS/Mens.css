@@ -343,4 +343,8 @@
     margin-left: 15px;
     margin-bottom: 50px;
   }
+
+  .men-container .trending-container .programs .program .caption{
+    margin-bottom: 20px;
+  }
 }

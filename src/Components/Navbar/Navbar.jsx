@@ -3,9 +3,8 @@ import nike_logo from "../../assets/logo(2).webp";
 import love_img from "../../assets/love-img(2).png";
 import love_filled_icon from "../../assets/love-filled-icon (5).png";
 import cart_img from "../../assets/cart_icon (2).png";
-import cart_img_2 from "../../assets/cart_icon (4).png"
+import cart_img_2 from "../../assets/cart_icon (4).png";
 import search_img from "../../assets/search-img.png";
-import search_img_2 from "../../assets/search-img (2).webp";
 import dropdown_icon from "../../assets/hamburger_icon.webp";
 import { useState } from "react";
 import { useContext, useEffect } from "react";
@@ -21,12 +20,15 @@ const Navbar = () => {
   const [searchResults, setSearchResults] = useState([]);
   const context = useContext(ShopContext);
 
-  const handleSearch = () => {
-    const searchResults = new_collections.filter((item) =>
-      item.name.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-    setSearchResults(searchResults);
-    context.updateSearchResults(searchResults);
+  const handleSearch = (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      const results = new_collections.filter((item) =>
+        item.name.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+      setSearchResults(results);
+      context.updateSearchResults(results);
+    }
   };
 
   useEffect(() => {
@@ -123,6 +125,7 @@ const Navbar = () => {
             autoComplete="on"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
+            onKeyDown={handleSearch}
           />
           <img src={search_img} className="search-img" onClick={handleSearch} />
           <img
@@ -160,12 +163,6 @@ const Navbar = () => {
         <div className="nav-cart-count dropdown_count">
           {getTotalCartItems()}
         </div>
-        <img
-          src={search_img_2}
-          className="menu_icon dropdown_menu dropdown_search"
-          alt="search-icon"
-          onClick={handleSearch}
-        />
       </div>
     </div>
   );

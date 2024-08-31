@@ -274,7 +274,6 @@
   }
 
   .kids-container .essential-container .kids-programs .program {
-    /* border: 5px solid red; */
     margin-bottom: 50px;
   }
 
@@ -288,7 +287,6 @@
   .essential-container .kids-programs .program {
     width: 90%;
     margin-left: 15px;
-    /* margin-bottom: 50px; */
   }
 
   .sizes-container .sizes-header {
@@ -297,5 +295,8 @@
     height: 10vh;
     padding: 0 10px;
     margin: -50px 0;
+  }
+  .essential-container.explore-here{
+    margin-top: 250px;
   }
 }

@@ -150,16 +150,13 @@
     }
     .cartItems-format-main{
         margin-top: 100px;
-        gap: 50px;
+        gap: 60px;
     }
     .cartItems-format-main .products{
         display: none;
     }
     .cartItems-format-main .totals{
         display: no;
-    }
-    .cartItems-format .name{
-        
     }
     .cartItems-format .new_price{
         display: flex;
@@ -188,7 +185,7 @@
         margin: auto;
     }
     .cartItems hr{
-        width: 80%;
+        width: 100%;
         margin: auto;
     }
 }
